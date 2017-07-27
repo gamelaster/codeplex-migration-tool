@@ -1,0 +1,41 @@
+{
+  "name": "codeplex-migration-tool",
+  "version": "1.0.0",
+  "description": "Tool for migrate CodePlex project as viewer. Migrate code with commit history, home, discussions, issues, downloads and others",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamelaster/codeplex-migration-tool.git"
+  },
+  "keywords": [
+    "codeplex",
+    "migration",
+    "tool"
+  ],
+  "author": "GAMELASTER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamelaster/codeplex-migration-tool/issues"
+  },
+  "homepage": "https://github.com/gamelaster/codeplex-migration-tool#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "child-process-promise": "^2.2.1",
+    "command-line-args": "^4.0.6",
+    "command-line-usage": "^4.0.0",
+    "cookie": "^0.3.1",
+    "decompress": "^4.2.0",
+    "fs-extra": "^4.0.0",
+    "fs-extra-promise": "^1.0.1",
+    "nodegit": "^0.18.3",
+    "octonode": "^0.7.13",
+    "parse-domain": "^1.1.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "winston": "^2.3.1"
+  }
+}
