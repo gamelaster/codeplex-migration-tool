@@ -91,8 +91,4 @@ bluebird.try(function() {
   if(args["no-code"] == false) {
     return codeMigrate.execute();
   }
-}).then(function() {
-  if(args["no-code"] == false) {
-    return codeMigrate.execute();
-  }
 });
